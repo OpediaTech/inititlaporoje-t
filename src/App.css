@@ -1,0 +1,137 @@
+/* global fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+
+/* Global Styles */
+
+.container_custome {
+  width: 85%;
+  margin: 0 auto;
+}
+
+/* globe */
+
+.globe h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 104px;
+  text-align: center;
+
+  /* Secondary */
+
+  color: #424d83;
+}
+.border {
+  border: 1px solid #666;
+}
+.globe_main_img {
+  min-height: 194px;
+  min-width: 194px;
+}
+
+.pera p {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  /* or 36px */
+
+  text-align: center;
+
+  /* Text Primary */
+
+  color: #505471;
+
+  margin-top: 48px;
+  margin-bottom: 78px;
+}
+
+/* globe */
+
+/* img_section */
+.img_section {
+  display: flex;
+  flex-direction: row;
+}
+.img_section .img_col {
+  width: 25%;
+  margin: 12px;
+}
+.img_section .img_col img {
+  object-fit: contain;
+}
+.painfull {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 70px;
+  /* or 104px */
+
+  align-items: center;
+
+  /* Secondary */
+
+  color: #424d83;
+}
+
+.gradient_Text {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ff8a00),
+    to(#e52e71)
+  );
+  background: linear-gradient(176deg, #0075c9, #76c2b6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  text-shadow: none;
+  display: block;
+}
+/* img_section */
+
+/* teacher_different */
+
+.teacher_different {
+  margin-top: 320px;
+}
+
+.teacher_different .img_col img {
+  height: 372px;
+}
+
+.teacher_different .img_col1 img {
+  margin-top: 30px;
+}
+
+/* teacher_different */
+
+/* Media query section  */
+
+@media (min-width: 320px) {
+}
+@media (min-width: 375px) {
+}
+
+@media (min-width: 420px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1024px) {
+}
+@media (min-width: 1444px) {
+}
+@media (min-width: 1920px) {
+}
+@media (min-width: 2100px) {
+}
+
+/* Media query section  */
