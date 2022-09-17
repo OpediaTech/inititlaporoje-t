@@ -60,9 +60,11 @@
   width: 25%;
   margin: 12px;
 }
+
 .img_section .img_col img {
   object-fit: contain;
 }
+
 .painfull {
   font-family: "Poppins";
   font-style: normal;
@@ -111,6 +113,25 @@
 }
 
 /* teacher_different */
+
+/* AIM */
+.single_item {
+  padding: 50px;
+}
+.single_item .single_pera {
+  padding: 10px;
+}
+
+/* paclahe  */
+.single_item_aim {
+  padding: 10px;
+}
+.single_item_aim .img_col img {
+  object-fit: contain;
+  width: 100%;
+}
+
+/* AIM */
 
 /* Media query section  */
 
